@@ -1,0 +1,19 @@
+{
+    "name": "gooddaykya/scheduler",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gooddaykya",
+            "email": "makedonskii.net@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/log": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Scheduler\\": "src/"
+        }
+    }
+}
